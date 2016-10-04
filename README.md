@@ -18,7 +18,7 @@ Ejemplo del comando:
 <li><b>docker run -d --name postgres_db -e POSTGRES_PASSWORD=123456 postgres_db</b></li>
 </ul>
 
-Si desea conecer la ip que tiene asignado nuestro contenedor puede ejecutar el siguiente comando:
+Si desea conocer la ip que tiene asignado nuestro contenedor puede ejecutar el siguiente comando:
 
 <ul type="disk">
 <li>docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $i <b>name_container/id_container</b></li>
