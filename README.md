@@ -9,7 +9,7 @@ Comando para la creacion de nuestra propia imagen:
 Ademas tenemos disponible una(1) variable de entorno (<b>POSTGRES_PASSWORD</b>) con el fin de crear un password a nuestro servidor de base de datos<br/>
 
 <ul type="disk">
-<li>Variable de entorno (<b>POSTGRES_PASSWORD</b>): de no enviar esta bandera -e con su respectiva asignación de variable este tomará por defecto(dockerpostgres) para la contraseña de nuestro servidor de base de datos</li>
+<li>Variable de entorno (<b>POSTGRES_PASSWORD</b>): de no enviar esta bandera -e con su respectiva asignación de variable este tomará por defecto(123456789) para la contraseña de nuestro servidor de base de datos</li>
 </ul>
 
 Ejemplo del comando: 
