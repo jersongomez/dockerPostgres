@@ -1,3 +1,3 @@
 FROM postgres
 MAINTAINER Jerson Stivel Gomez Urrego
-ENV POSTGRES_PASSWORD=dockerpostgres
+ENV POSTGRES_PASSWORD=123456789
